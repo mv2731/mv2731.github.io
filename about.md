@@ -5,4 +5,4 @@ layout: default
 
 # About Me
 
-I'm [Your Name], a [Your Occupation/Field]. This is my personal site, built with the **Minimal** Jekyll theme.
+I'm Maya Venkatraman, a Research Software Engineer at the [AlQuraishi Laboratory](https://www.aqlab.io/). This is my personal site, built with the **Minimal** Jekyll theme.
