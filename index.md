@@ -38,7 +38,9 @@ Selective learning to improve efficiency and accuracy across genome-related task
 # News & Media
 
 ['22 Salutatorian](https://www.engineering.columbia.edu/about/news/meet-columbia-engineerings-2022-valedictorian-and-salutatorian)
+
 [NCWIT Collegiate Award](https://www.aspirations.org/2021-ncwit-collegiate-award-recipients-announced)
+
 [Adding HLS to OBS - Explained](https://www.youtube.com/watch?v=q7LPTCnjeE8)
 
 
