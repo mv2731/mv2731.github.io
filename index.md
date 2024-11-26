@@ -23,14 +23,25 @@ Sayres, R., Jain, A., Venkatraman, M., et al. (Expected 2025). Impact of a consu
 
 # Interests
 
-* Sex-mediated differences in disease pathogenesis -- can expression of genes on Xi and Y explain some of the varying disease burden observed across different chronic conditions?
-* Representation in genomic datasets.
-* Selective learning to improve efficiency and accuracy across genome-related tasks. 
+Sex-mediated differences in disease pathogenesis -- can expression of genes on Xi and Y explain some of the varying disease burden observed across different chronic conditions?
+
+Representation in genomic datasets.
+
+Selective learning to improve efficiency and accuracy across genome-related tasks. 
 
 # Favorite Books
 
 * Howl's Moving Castle -- significantly better, though far less famous than the movie, with a much more coherent plot.
 * Invisible Women -- the chapter on medicine inspired
-* This is How You Lose Her 
+* This is How You Lose Her by Junot Diaz
+
+# News & Media
+
+['22 Salutatorian](https://www.engineering.columbia.edu/about/news/meet-columbia-engineerings-2022-valedictorian-and-salutatorian)
+[NCWIT Collegiate Award](https://www.aspirations.org/2021-ncwit-collegiate-award-recipients-announced)
+[Adding HLS to OBS - Explained](https://www.youtube.com/watch?v=q7LPTCnjeE8)
+
+
+
 
 
