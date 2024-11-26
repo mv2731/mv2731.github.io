@@ -43,6 +43,10 @@ Selective learning to improve efficiency and accuracy across genome-related task
 
 [Adding HLS to OBS - Explained](https://www.youtube.com/watch?v=q7LPTCnjeE8)
 
+# Contact
+
+You can reach me in a couple different ways - [Linkedin] or at maya.venkatraman1@gmail.com. 
+NOTE: do not omit the "1" in the email address, or you will reach a different woman with a comparable cultural background. 
 
 
 
