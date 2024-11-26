@@ -3,4 +3,4 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 gem "github-pages", group: :jekyll_plugins
 title: [Maya Venkatraman]
-description: [A site to make Maya Venkatraman and her work discoverable]
+description: [An intro to me and my work :)]
