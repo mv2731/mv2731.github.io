@@ -23,4 +23,10 @@ Sayres, R., Jain, A., Venkatraman, M., et al. (Expected 2025). Impact of a consu
 
 # Interests
 
+# Favorite Books
+
+* Howl's Moving Castle -- significantly better, though far less famous than the movie, with a much more coherent plot.
+* Invisible Women -- the chapter on medicine inspired
+* This is How You Lose Her 
+
 
