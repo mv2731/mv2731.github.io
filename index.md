@@ -37,8 +37,7 @@ Selective learning to improve efficiency and accuracy across genome-related task
 
 [Innovation & Enhancement in Teaching](https://www.cc-seas.columbia.edu/node/442712)
 
-[Adding HLS to OBS - Explained](https://www.youtube.com/watch?v=q7LPTCnjeE8)
-* [Commits]()
+[Adding HLS to OBS - Explained](https://www.youtube.com/watch?v=q7LPTCnjeE8) ([Commits]())
 
 [Russell C. Mills]()
 
