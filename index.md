@@ -7,7 +7,7 @@ layout: default
 
 I'm Maya Venkatraman, a Research Software Engineer at the [AlQuraishi Laboratory](https://www.aqlab.io/). 
 
-In the past, I worked at Google Research, where I 
+In the past, I worked at Google Research, . I also contributed on a 20% basis to [DeepVariant](https://github.com/google/deepvariant) and research expanding upon [DeepNull](https://www.nature.com/articles/s41467-021-27930-0).
 
 I also worked at YouTube Trust and Safety, building infrastructure for ML-based spam detection. 
 
@@ -29,26 +29,32 @@ Representation in genomic datasets.
 
 Selective learning to improve efficiency and accuracy across genome-related tasks. 
 
-# Favorite Books
-
-* Howl's Moving Castle -- significantly better, though far less famous than the movie, with a much more coherent plot.
-* Invisible Women -- the chapter on medicine inspired
-* This is How You Lose Her by Junot Diaz
-
 # News & Media
 
 ['22 Salutatorian](https://www.engineering.columbia.edu/about/news/meet-columbia-engineerings-2022-valedictorian-and-salutatorian)
 
-[NCWIT Collegiate Award](https://www.aspirations.org/2021-ncwit-collegiate-award-recipients-announced)
+[NCWIT 2021 Collegiate Award](https://www.aspirations.org/2021-ncwit-collegiate-award-recipients-announced)
+
+[Innovation & Enhancement in Teaching](https://www.cc-seas.columbia.edu/node/442712)
 
 [Adding HLS to OBS - Explained](https://www.youtube.com/watch?v=q7LPTCnjeE8)
 * [Commits]()
+
+[Russell C. Mills]()
+
+[U.S. Presidential Scholars Program Semifinalist](https://www.ed.gov/media/document/2017-awards-semifinalists-us-presidential-scholars-program)
+
+[National Merit Scholarship Recipient](https://patch.com/massachusetts/newton/6-newton-teens-win-national-merit-scholarship)
 
 # Contact
 
 You can reach me in a couple different ways - [Linkedin](https://www.linkedin.com/in/maya-venkatraman-2b2398156/) or at maya.venkatraman1@gmail.com. 
 NOTE: do not omit the "1" in the email address, or you will reach a different woman with a comparable cultural background. 
 
+# Favorite Books
 
+* Howl's Moving Castle -- significantly better, though far less famous than the movie, with a much more coherent plot.
+* Invisible Women -- the chapter on medicine inspired
+* This is How You Lose Her by Junot Diaz
 
 
