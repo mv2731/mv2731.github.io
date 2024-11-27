@@ -4,3 +4,4 @@ plugins:
 gem "github-pages", group: :jekyll_plugins
 title: [Maya Venkatraman]
 description: [An intro to me and my work :)]
+logo: https://ibb.co/wK0rvw4
