@@ -5,3 +5,11 @@ gem "github-pages", group: :jekyll_plugins
 title: [Maya Venkatraman]
 description: [An intro to me and my work :)]
 logo: https://ibb.co/wK0rvw4
+
+social_links:
+  - name: "GitHub"
+    url: https://github.com/mv2731
+  - name: "LinkedIn"
+    url: https://www.linkedin.com/in/maya-venkatraman-2b2398156
+  - name: "Scholar"
+    url: https://scholar.google.com/citations?user=NaZR814AAAAJ&hl=en
