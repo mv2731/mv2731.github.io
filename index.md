@@ -25,7 +25,7 @@ Sayres, R., Jain, A., **Venkatraman, M.**, et al. (Expected 2025). Impact of a c
 
 Sex-mediated differences in disease pathogenesis -- how do Xi and Y differentially affect genomic regulation on autosomal chromosomes? How does this explain some of the sex-biases we observe in disease?
 
-Diverse representation in genomic datasets. Expanding diversity in genomic datasets can increase statistical power (provided that sample size increase outweighs standard error), uncovers population-specific variants, and enhances the generalizability of findings, driving equitable precision medicine and deeper insights into disease mechanisms.
+Diverse representation in genomic datasets. Expanding diversity in genomic datasets can (1) increase statistical power (provided that sample size increase outweighs standard error), (2) uncover population-specific variants, and (3) enhance the generalizability of findings, driving equitable precision medicine and deeper insights into disease mechanisms.
 
 Developing selective learning methods to enhance the efficiency and accuracy of training models for genome-related prediction tasks.
 
