@@ -25,7 +25,7 @@ Sayres, R., Jain, A., **Venkatraman, M.**, et al. (Expected 2025). Impact of a c
 
 Sex-mediated differences in disease pathogenesis -- how do Xi and Y differentially affect genomic regulation on autosomal chromosomes? How does this explain some of the sex-biases we observe in disease?
 
-Diverse representation in genomic datasets. We can increase the power of statistical tests of association by increasing sample size, and we open up many opportunities for discovery by ensuring genetic diversity within and across populations. Expanding diversity in genomic datasets not only enhances generalizability of findings but also enables the identification of population-specific variants, improving our ability to understand disease mechanisms and develop equitable precision medicine approaches. 
+Diverse representation in genomic datasets. Expanding diversity in genomic datasets can increase statistical power (provided that sample size increase outweighs standard error), uncovers population-specific variants, and enhances the generalizability of findings, driving equitable precision medicine and deeper insights into disease mechanisms.
 
 Developing selective learning methods to enhance the efficiency and accuracy of training models for genome-related prediction tasks.
 
@@ -37,7 +37,7 @@ Developing selective learning methods to enhance the efficiency and accuracy of 
 
 [Innovation & Enhancement in Teaching](https://www.cc-seas.columbia.edu/node/442712)
 
-[Adding HLS to OBS](https://www.youtube.com/watch?v=q7LPTCnjeE8) ([Commits]())
+[Adding HLS to OBS](https://www.youtube.com/watch?v=q7LPTCnjeE8) ([Commits](https://github.com/obsproject/obs-studio/pull/3114))
 
 [Russell C. Mills Award](https://www.cs.columbia.edu/wp-content/uploads/2021/04/CS_Highlights2021_rev.pdf)
 
@@ -54,6 +54,6 @@ NOTE: do not omit the "1" in the email address, or you will reach a different wo
 
 * Howl's Moving Castle by Diana Wynne Jones -- significantly better, though far less famous than the movie, with a much more coherent plot. 
 * Invisible Women -- the chapter on disparities in the medical system profoundly reshaped my understanding of the research and funding landscape in the United States, illuminating systemic biases present at nearly every stage of biomedical discovery.
-* This is How You Lose Her by Junot Diaz -- a heart-rending last chapter that captures some of the most profound sentiments shared by humankind. 
+* This is How You Lose Her by Junot Diaz -- a heart-rending last chapter that captures some of the most profound sentiments expressed by humanity. 
 
 
