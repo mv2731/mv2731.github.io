@@ -1,1 +1,1 @@
-# mv2731.github.io
+# Jekyll-based static personal website. Used the minimal theme. 
