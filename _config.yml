@@ -4,7 +4,7 @@ plugins:
 gem "github-pages", group: :jekyll_plugins
 title: [Maya Venkatraman]
 description: [An intro to me and my work :)]
-logo: IMG_4834.jpg
+logo: assets/images/Venkatraman_Maya_Lehenga.jpeg
 
 social_links:
   - name: "GitHub"
