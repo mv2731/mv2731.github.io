@@ -27,6 +27,27 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* Sun-soaked Banner */}
+        <div style={{ width: '100%', background: 'linear-gradient(180deg, #4FC3F7 0%, #FFF8E1 100%)', display: 'flex', justifyContent: 'center', alignItems: 'flex-end', height: '180px', position: 'relative', marginBottom: '2rem' }}>
+          {/* Simple SVG Orange Tree Illustration */}
+          <svg width="320" height="180" viewBox="0 0 320 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="320" height="180" fill="url(#sky)"/>
+            <ellipse cx="260" cy="160" rx="40" ry="12" fill="#A5D6A7"/>
+            <rect x="245" y="100" width="10" height="60" rx="5" fill="#A1887F"/>
+            <circle cx="250" cy="110" r="30" fill="#81C784"/>
+            <circle cx="265" cy="120" r="20" fill="#66BB6A"/>
+            <circle cx="235" cy="120" r="18" fill="#388E3C"/>
+            <circle cx="250" cy="120" r="8" fill="#FFA726"/>
+            <circle cx="265" cy="130" r="6" fill="#FFA726"/>
+            <circle cx="240" cy="130" r="5" fill="#FFA726"/>
+            <defs>
+              <linearGradient id="sky" x1="0" y1="0" x2="0" y2="180" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4FC3F7"/>
+                <stop offset="1" stop-color="#FFF8E1"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
         {children}
       </body>
     </html>

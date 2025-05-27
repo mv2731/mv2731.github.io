@@ -31,9 +31,10 @@ export default function Home() {
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-6">
             Maya Venkatraman
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Research Software Engineer at the AlQuraishi Laboratory
-          </p>
+          <div className="flex flex-col items-center space-y-2">
+            <span className="text-xl text-gray-600 dark:text-gray-300">Research Software Engineer at the AlQuraishi Laboratory</span>
+            <span className="text-lg text-gray-500 dark:text-gray-400">M.S. in Applied Mathematics, Columbia University (2025 - present)</span>
+          </div>
         </section>
 
         {/* Featured Sections */}
@@ -64,8 +65,12 @@ export default function Home() {
         {/* About Section */}
         <section className="prose dark:prose-invert max-w-none">
           <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">About Me</h2>
-          <p className="text-gray-600 dark:text-gray-300 mb-4">
-            I'm a Research Software Engineer at the AlQuraishi Laboratory, where I focus on advancing computational biology and genomics research. Previously, I worked at Google Research, applying computer vision to dermatologic image classification (Derm on Lens) and contributing to genomics projects including DeepVariant and DeepNull. I also have experience at YouTube Trust and Safety, building infrastructure for ML-based spam detection.
+          <p className="text-gray-600 dark:text-gray-300 mb-4 whitespace-pre-line">
+            I'm Maya Venkatraman, a Research Software Engineer at the AlQuraishi Laboratory.
+
+In the past, I worked at Google Research, applying computer vision to dermatologic image classification (Derm on Lens). I also contributed on a 20% basis to genomics projects, including DeepVariant and DeepNull.
+
+Before that, I worked at YouTube Trust and Safety, building infrastructure for ML-based spam detection.
           </p>
           
           <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">Research Interests</h3>
@@ -83,6 +88,19 @@ export default function Home() {
             <li>Russell C. Mills Award</li>
             <li>U.S. Presidential Scholars Program Semifinalist</li>
             <li>National Merit Scholarship Recipient</li>
+          </ul>
+
+          {/* Education Section */}
+          <h3 className="text-xl font-semibold text-gray-900 dark:text-white mt-6 mb-3">Education</h3>
+          <ul className="list-none pl-0 text-gray-600 dark:text-gray-300 space-y-4">
+            <li>
+              <div className="font-medium text-gray-900 dark:text-white">Master of Science in Applied Mathematics</div>
+              <div className="text-sm">Columbia University (2025 - present)</div>
+            </li>
+            <li>
+              <div className="font-medium text-gray-900 dark:text-white">Bachelor of Science in Computer Science</div>
+              <div className="text-sm">Columbia University &mdash; Salutatorian, Class of 2022</div>
+            </li>
           </ul>
         </section>
 

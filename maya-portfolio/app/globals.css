@@ -3,6 +3,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-accent-orange: #FFA726;
+  --color-accent-yellow: #FFD54F;
+  --color-accent-blue: #4FC3F7;
+  --color-accent-teal: #26C6DA;
 }
 
 @theme inline {
@@ -20,7 +24,24 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: linear-gradient(180deg, #FFF8E1 0%, #FFE0B2 100%);
+  color: #2D2A26;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: var(--color-accent-blue);
+}
+
+.button, button {
+  background: var(--color-accent-orange);
+  color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(255, 167, 38, 0.15);
+  transition: background 0.2s;
+}
+
+.button:hover, button:hover {
+  background: var(--color-accent-yellow);
+  color: #2D2A26;
 }
