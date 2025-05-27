@@ -3,20 +3,20 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#FFF8E1]">
+    <div className="min-h-screen bg-warm-gray-50">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-sm border-b border-orange-200 z-50">
+      <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-sm border-b border-orange-100 z-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
             <div className="flex-shrink-0 font-bold text-xl text-orange-900">Maya Venkatraman</div>
             <div className="hidden sm:flex space-x-8">
-              <Link href="/" className="text-orange-900 hover:text-orange-500">
+              <Link href="/" className="text-orange-700 hover:text-orange-500">
                 Home
               </Link>
-              <Link href="/reads" className="text-orange-900 hover:text-orange-500">
+              <Link href="/reads" className="text-orange-700 hover:text-orange-500">
                 Reads
               </Link>
-              <Link href="/publications" className="text-orange-900 hover:text-orange-500">
+              <Link href="/publications" className="text-orange-700 hover:text-orange-500">
                 Publications
               </Link>
             </div>
@@ -33,15 +33,15 @@ export default function Home() {
           </h1>
           <div className="flex flex-col items-center space-y-2">
             <span className="text-xl text-orange-800">Research Software Engineer at the AlQuraishi Laboratory</span>
-            <span className="text-lg text-orange-700">M.S. in Applied Mathematics, Columbia University (2025 - present)</span>
+            <span className="text-lg text-orange-600">M.S. in Applied Mathematics, Columbia University (2025 - present)</span>
           </div>
         </section>
 
         {/* Featured Sections */}
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           <Link href="/reads" className="group">
-            <div className="p-6 rounded-lg border border-orange-200 bg-white hover:border-orange-300 transition-colors shadow-sm">
-              <h2 className="text-2xl font-semibold text-orange-900 mb-4 group-hover:text-orange-500">
+            <div className="p-6 rounded-lg border border-orange-100 bg-white hover:border-orange-200 transition-colors shadow-sm">
+              <h2 className="text-2xl font-semibold text-orange-900 mb-4 group-hover:text-orange-600">
                 Reads
               </h2>
               <p className="text-orange-800">
@@ -51,8 +51,8 @@ export default function Home() {
           </Link>
           
           <Link href="/publications" className="group">
-            <div className="p-6 rounded-lg border border-orange-200 bg-white hover:border-orange-300 transition-colors shadow-sm">
-              <h2 className="text-2xl font-semibold text-orange-900 mb-4 group-hover:text-orange-500">
+            <div className="p-6 rounded-lg border border-orange-100 bg-white hover:border-orange-200 transition-colors shadow-sm">
+              <h2 className="text-2xl font-semibold text-orange-900 mb-4 group-hover:text-orange-600">
                 Publications
               </h2>
               <p className="text-orange-800">
@@ -105,14 +105,14 @@ Before that, I worked at YouTube Trust and Safety, building infrastructure for M
         <section className="mt-12 text-center">
           <h2 className="text-2xl font-semibold text-orange-900 mb-4">Get in Touch</h2>
           <p className="text-orange-800">
-            Connect with me on <a href="https://www.linkedin.com/in/maya-venkatraman" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">LinkedIn</a> or email me at{" "}
-            <a href="mailto:maya.venkatraman1@gmail.com" className="text-blue-600 hover:underline">maya.venkatraman1@gmail.com</a>
+            Connect with me on <a href="https://www.linkedin.com/in/maya-venkatraman" className="text-orange-600 hover:underline" target="_blank" rel="noopener noreferrer">LinkedIn</a> or email me at{" "}
+            <a href="mailto:maya.venkatraman1@gmail.com" className="text-orange-600 hover:underline">maya.venkatraman1@gmail.com</a>
           </p>
         </section>
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-orange-200 mt-16 bg-white">
+      <footer className="border-t border-orange-100 mt-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center text-orange-800">
             <p>© {new Date().getFullYear()} Maya Venkatraman. All rights reserved.</p>

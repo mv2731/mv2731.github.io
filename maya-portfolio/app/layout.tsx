@@ -40,7 +40,7 @@ export default function RootLayout({
             </div>
           </div>
         </nav>
-        {/* Scaled-down Orange Tree Banner */}
+        {/* Large Orange Tree Banner */}
         <div style={{ width: '100%', position: 'relative', height: '250px', marginBottom: '0', overflow: 'hidden' }}>
           <img
             src="/orange-tree.jpg"
