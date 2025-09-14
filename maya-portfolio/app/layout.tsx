@@ -28,26 +28,21 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* Navigation at the very top */}
-        <nav className="w-full bg-white/80 backdrop-blur-sm border-b border-orange-200 z-50">
+        <nav className="w-full backdrop-blur-sm border-b border-green-800 z-50" style={{ backgroundColor: '#0f1511' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16 items-center">
-              <div className="flex-shrink-0 font-bold text-xl text-orange-900">Maya Venkatraman</div>
-              <div className="hidden sm:flex space-x-8">
-                <a href="/" className="text-orange-900 hover:text-orange-500">Home</a>
-                <a href="/reads" className="text-orange-900 hover:text-orange-500">Reads</a>
-                <a href="/publications" className="text-orange-900 hover:text-orange-500">Publications</a>
-              </div>
+            <div className="flex-shrink-0 font-bold text-xl text-slate-100">Maya Venkatraman</div>
+            <div className="hidden sm:flex space-x-8">
+              <a href="/" className="text-slate-200 hover:text-slate-100">Home</a>
+              <a href="#education" className="text-slate-200 hover:text-slate-100">Education</a>
+              <a href="#research" className="text-slate-200 hover:text-slate-100">Research</a>
+              <a href="#publications" className="text-slate-200 hover:text-slate-100">Publications</a>
+              <a href="#news" className="text-slate-200 hover:text-slate-100">News</a>
+              <a href="#awards" className="text-slate-200 hover:text-slate-100">Awards</a>
+            </div>
             </div>
           </div>
         </nav>
-        {/* Large Orange Tree Banner */}
-        <div style={{ width: '100%', position: 'relative', height: '250px', marginBottom: '0', overflow: 'hidden' }}>
-          <img
-            src="/orange-tree.jpg"
-            alt="Orange tree against blue sky"
-            style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
-          />
-        </div>
         {children}
       </body>
     </html>

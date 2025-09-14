@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f8f8f2; /* Warm off-white */
-  --foreground: #333333; /* Softer dark gray */
+  --background: #0f1511; /* Deep forest dark green matching photo */
+  --foreground: #e8eae8; /* Soft off-white */
   --color-accent-gold: #FFD700;
   --color-accent-orange: #FFA726;
   --color-accent-teal: #26C6DA;
@@ -18,8 +18,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #121212;
-    --foreground: #e0e0e0;
+    --background: #0f1511;
+    --foreground: #e8eae8;
   }
 }
 
@@ -29,8 +29,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
-  color: var(--color-accent-blue);
+  color: #e2e8f0; /* slate-200 - much better contrast */
+}
+
+a:hover {
+  color: #f1f5f9; /* slate-100 - bright on hover */
 }
 
 .button, button {
