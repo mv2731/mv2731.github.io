@@ -25,7 +25,7 @@ export default function Home() {
         
         {/* Content */}
         <div className="relative z-10 py-20 px-8">
-          <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 drop-shadow-lg">
+          <h1 className="text-4xl sm:text-5xl font-bold text-slate-100 mb-8 text-white mb-6 drop-shadow-lg">
             Maya Venkatraman
           </h1>
           <div className="flex flex-col items-center space-y-2">
@@ -50,10 +50,16 @@ In parallel to my research, I am pursuing a part-time Master's in Statistics at 
 
 My interests within machine learning are both deep and broad, and I am considering multiple areas of focus for my PhD. I am particularly excited about the potential of diffusion models for protein design, as well as the use of reinforcement learning to guide exploration of conformational space. I am also drawn to novel AI techniques such as Hierarchical Dynamic Chunking from the Gu lab, valuing the idea of end-to-end, jointly optimized models that require less heuristic intervention. I believe that approaches like these will be especially relevant in biology, where data is inherently hierarchical, noisy, and context-dependent. I also see interpretability as a fascinating frontier in biological modeling, potentially enabling researchers to reverse engineer molecular contacts or mechanisms from patterns in model attention.
 
-In the past, I worked at Google Research, applying computer vision to dermatologic image classification (Derm on Lens). I also contributed on a 20% basis to genomics projects, including DeepVariant and DeepNull. Before that, I worked at YouTube Trust and Safety, building infrastructure for ML-based spam detection.
+In the past, I worked at Google Research, applying computer vision to dermatologic image classification (Derm on Lens). I also contributed on a 20% basis to genomics projects, including DeepVariant and DeepNull. Before that, I worked at YouTube Trust and Safety, building infrastructure for detecting abusive user behavior.
           </p>
-          <h3 className="text-2xl font-semibold text-slate-100 mb-6">Research Interests</h3>
-          <div className="grid md:grid-cols-2 gap-6">
+        </section>
+
+        {/* Research Interests Section */}
+        <section id="research" className="mb-20">
+          <div className="border-b border-slate-600 pb-8 mb-8">
+            <h2 className="font-bold text-slate-100 mb-8" style={{fontSize: '30px'}} style={{fontSize: '30px'}}>Research Interests</h2>
+            
+            <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
               <h4 className="text-lg font-medium text-slate-100 mb-3">Machine Learning</h4>
               <ul className="space-y-2 text-slate-200">
@@ -63,15 +69,15 @@ In the past, I worked at Google Research, applying computer vision to dermatolog
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-400 mr-3 mt-2">•</span>
-                  <span>Mechanistic interpretability -- can we reverse engineer biological mechanisms?</span>
+                  <span>Mechanistic interpretability — can we reverse engineer biological mechanisms?</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-400 mr-3 mt-2">•</span>
-                  <span>Training methods that enable us to train at massive context lengths, with single-nucleotide resolution -- think Hierarchical Dynamic Chunking</span>
+                  <span>Training methods that enable us to train at massive context lengths, with single-nucleotide resolution — think Hierarchical Dynamic Chunking</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-400 mr-3 mt-2">•</span>
-                  <span>Reinforcement learning -- can we explore conformational space while disincentivizing aphysical behavior?</span>
+                  <span>Reinforcement learning — can we explore conformational space while disincentivizing aphysical behavior?</span>
                 </li>
           </ul>
             </div>
@@ -94,16 +100,17 @@ In the past, I worked at Google Research, applying computer vision to dermatolog
           </ul>
             </div>
           </div>
+          </div>
         </section>
 
         {/* Education Section */}
         <section id="education" className="mb-20">
           <div className="border-b border-slate-600 pb-8 mb-8">
-            <h2 className="text-4xl font-bold text-slate-100 mb-8">Education</h2>
+            <h2 className="font-bold text-slate-100 mb-8" style={{fontSize: '30px'}}>Education</h2>
             
             <div className="space-y-6">
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
-                <h3 className="text-2xl font-bold text-slate-100 mb-3">Master of Arts in Statistics</h3>
+                <h3 className="text-2xl font-bold text-slate-100 mb-8 text-slate-100 mb-3">Master of Arts in Statistics</h3>
                 <div className="text-lg text-slate-200 mb-2">Columbia University (2025 - present)</div>
                 <div className="text-slate-300 mb-4">Supported by full-ride MA2PhD scholarship</div>
                 <div className="mt-4">
@@ -116,7 +123,7 @@ In the past, I worked at Google Research, applying computer vision to dermatolog
                 </div>
               </div>
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
-                <h3 className="text-2xl font-bold text-slate-100 mb-3">Bachelor of Science in Computer Science</h3>
+                <h3 className="text-2xl font-bold text-slate-100 mb-8 text-slate-100 mb-3">Bachelor of Science in Computer Science</h3>
                 <div className="text-lg text-slate-200 mb-4">Columbia University &mdash; Salutatorian, Class of 2022, GPA 4.12</div>
                 <div className="mt-4">
                   <h4 className="text-lg font-semibold text-slate-100 mb-3">Relevant Coursework:</h4>
@@ -134,7 +141,7 @@ In the past, I worked at Google Research, applying computer vision to dermatolog
         {/* Research Section */}
         <section id="research" className="mb-0">
           <div className="border-b border-slate-600 pb-8 mb-8">
-            <h2 className="text-4xl font-bold text-slate-100 mb-8">Research</h2>
+            <h2 className="font-bold text-slate-100 mb-8" style={{fontSize: '30px'}}>Research</h2>
             
             {/* Current Research */}
             <div className="mb-12">
@@ -157,35 +164,40 @@ In the past, I worked at Google Research, applying computer vision to dermatolog
 
             {/* Past Research */}
             <div className="mb-12">
-              <h3 className="text-2xl font-semibold text-slate-100 mb-6">Past Research</h3>
+              <h3 className="text-2xl font-semibold text-slate-100 mb-6">Industry Experience</h3>
               <div className="space-y-6">
                 <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
                   <h4 className="text-xl font-medium text-slate-100 mb-3">
-                    Google Research - Computer Vision for Healthcare
+                    Google Research - Computer Vision for Healthcare (L4)
                   </h4>
+                  <p className="text-slate-400 text-sm mb-3">2023 - 2024</p>
                   <p className="text-slate-200 mb-4">
                     Applied computer vision techniques to dermatologic image classification through the "Derm on Lens" project. Contributed to genomics projects including DeepVariant and DeepNull on a 20% basis.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 bg-slate-700 text-slate-200 rounded-full text-sm">Computer Vision</span>
                     <span className="px-3 py-1 bg-slate-700 text-slate-200 rounded-full text-sm">Healthcare AI</span>
-                    <span className="px-3 py-1 bg-slate-700 text-slate-200 rounded-full text-sm">Dermatology</span>
+                    <span className="px-3 py-1 bg-slate-700 text-slate-200 rounded-full text-sm">Genomics</span>
                     <span className="px-3 py-1 bg-slate-700 text-slate-200 rounded-full text-sm">Deep Learning</span>
+                    <span className="px-3 py-1 bg-slate-700 text-slate-200 rounded-full text-sm">Python</span>
                   </div>
                 </div>
 
                 <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
-                  <h4 className="text-xl font-medium text-slate-100 mb-3">
+                  <h4 className="text-xl font-medium text-slate-100 mb-1">
                     YouTube Trust and Safety - ML Infrastructure
                   </h4>
+                  <p className="text-slate-400 text-sm mb-2">L3 -> L4 SWE</p>
+                  <p className="text-slate-400 text-sm mb-3">2021 - 2023</p>
                   <p className="text-slate-200 mb-4">
-                    Built infrastructure for machine learning-based spam detection systems, improving content moderation capabilities at scale.
+                    Built infrastructure for machine learning systems to detect abusive user behavior, improving platform safety at scale.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 bg-slate-700 text-slate-200 rounded-full text-sm">ML Infrastructure</span>
                     <span className="px-3 py-1 bg-slate-700 text-slate-200 rounded-full text-sm">Spam Detection</span>
-                    <span className="px-3 py-1 bg-slate-700 text-slate-200 rounded-full text-sm">Content Moderation</span>
+                    <span className="px-3 py-1 bg-slate-700 text-slate-200 rounded-full text-sm">Low-latency Systems</span>
                     <span className="px-3 py-1 bg-slate-700 text-slate-200 rounded-full text-sm">Scalable Systems</span>
+                    <span className="px-3 py-1 bg-slate-700 text-slate-200 rounded-full text-sm">C++</span>
                   </div>
                 </div>
               </div>
@@ -197,12 +209,12 @@ In the past, I worked at Google Research, applying computer vision to dermatolog
         {/* Publications Section */}
         <section id="publications" className="mb-0">
           <div className="border-b border-slate-600 pb-8 mb-8">
-            <h2 className="text-4xl font-bold text-slate-100 mb-8">Publications</h2>
+            <h2 className="font-bold text-slate-100 mb-8" style={{fontSize: '30px'}}>Publications</h2>
             
             {/* Introduction */}
             <div className="mb-8">
               <p className="text-lg text-slate-200 leading-relaxed">
-                In a past life, I worked in a chemical engineering lab, developing computational models (a mix of algorithms and optimization) to demonstrate how hydrogen electrolysis could be made cheaper and more efficient.
+                In a past life, I worked in a chemical engineering lab, developing computational models (a mix of algorithms and optimization) to demonstrate how hydrogen electrolysis could be performed at minimized cost. 
               </p>
             </div>
 
@@ -319,7 +331,7 @@ In the past, I worked at Google Research, applying computer vision to dermatolog
         {/* News Section */}
         <section id="news" className="mb-0">
           <div className="border-b border-slate-600 pb-8 mb-8">
-            <h2 className="text-4xl font-bold text-slate-100 mb-8">News</h2>
+            <h2 className="font-bold text-slate-100 mb-8" style={{fontSize: '30px'}}>News</h2>
             
             <div className="space-y-6">
               {/* 2025 NSF Fellowship */}
@@ -338,7 +350,7 @@ In the past, I worked at Google Research, applying computer vision to dermatolog
                   <span className="text-slate-400 text-sm font-medium">2025</span>
                 </div>
                 <p className="text-slate-200 mb-3">
-                  Selected as a recipient of the prestigious National Science Foundation Computer and Information Science and Engineering Graduate Fellowship (CSGrad4US), which supports the path toward a PhD in computer science focused on machine learning for biology.
+                  Selected as a recipient of the prestigious National Science Foundation Computer and Information Science and Engineering Graduate Fellowship (CSGrad4US), which provides three years of full funding for my PhD in computer science.
                 </p>
                 <p className="text-slate-300 text-sm">
                   Featured on <a 
@@ -367,7 +379,7 @@ In the past, I worked at Google Research, applying computer vision to dermatolog
                   <span className="text-slate-400 text-sm font-medium">2022</span>
                 </div>
                 <p className="text-slate-200 mb-3">
-                  Selected as Salutatorian of Columbia University's Class of 2022, recognizing exceptional academic achievement throughout undergraduate studies in Computer Science.
+                  Selected as Salutatorian of Columbia University's Class of 2022, recognizing exceptional academic achievement throughout undergraduate studies in computer science.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <p className="text-slate-300">
@@ -452,7 +464,7 @@ In the past, I worked at Google Research, applying computer vision to dermatolog
                   <span className="text-slate-400 text-sm font-medium">2021</span>
                 </div>
                 <p className="text-slate-200 mb-3">
-                  Recognized by Columbia University for improving inclusivity in Computer Science classes and exceptional leadership as head teaching assistant, coordinating teaching staff to ensure excellent coverage despite large class sizes across multiple time zones.
+                  Recognized by Columbia University for improving inclusivity in computer science classes and exceptional leadership as head teaching assistant, coordinating teaching staff during the early pandemic to ensure positive stuent experience.
                 </p>
                 <p className="text-slate-300 text-sm">
                   Featured on <a 
@@ -530,7 +542,7 @@ In the past, I worked at Google Research, applying computer vision to dermatolog
         {/* Awards Section */}
         <section id="awards" className="mb-12">
         <div className="border-b border-slate-600 pb-8 mb-8">
-          <h2 className="text-4xl font-bold text-slate-100 mb-8">Awards</h2>
+          <h2 className="font-bold text-slate-100 mb-8" style={{fontSize: '30px'}}>Awards</h2>
           
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
