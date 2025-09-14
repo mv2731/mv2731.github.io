@@ -34,8 +34,11 @@ export default function RootLayout({
             <div className="flex-shrink-0 font-bold text-xl text-slate-100">Maya Venkatraman</div>
             <div className="hidden sm:flex space-x-8">
               <a href="/" className="text-slate-200 hover:text-slate-100">Home</a>
-              <a href="/publications" className="text-slate-200 hover:text-slate-100">Publications</a>
-              <a href="/news" className="text-slate-200 hover:text-slate-100">News</a>
+              <a href="#education" className="text-slate-200 hover:text-slate-100">Education</a>
+              <a href="#research" className="text-slate-200 hover:text-slate-100">Research</a>
+              <a href="#publications" className="text-slate-200 hover:text-slate-100">Publications</a>
+              <a href="#news" className="text-slate-200 hover:text-slate-100">News</a>
+              <a href="#awards" className="text-slate-200 hover:text-slate-100">Awards</a>
             </div>
             </div>
           </div>
