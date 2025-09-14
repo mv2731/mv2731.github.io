@@ -10,14 +10,14 @@ export default function Home() {
           <div className="flex justify-between h-16 items-center">
             <div className="flex-shrink-0 font-bold text-xl text-slate-100">Maya Venkatraman</div>
             <div className="hidden sm:flex space-x-8">
-              <Link href="/" className="text-orange-700 hover:text-orange-500">
-                Home
-              </Link>
-              <Link href="/reads" className="text-orange-700 hover:text-orange-500">
-                Reads
-              </Link>
               <Link href="/publications" className="text-orange-700 hover:text-orange-500">
                 Publications
+              </Link>
+              <Link href="/publications" className="text-orange-700 hover:text-orange-500">
+                News
+              </Link>
+              <Link href="/publications" className="text-orange-700 hover:text-orange-500">
+                Education
               </Link>
             </div>
           </div>
@@ -57,30 +57,6 @@ export default function Home() {
       {/* Main Content */}
       <main className="pt-0 pb-16 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
 
-        {/* Featured Sections */}
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
-          <Link href="/reads" className="group">
-            <div className="p-6 rounded-lg border border-slate-500 bg-slate-800/60 hover:border-slate-400 transition-colors shadow-sm">
-              <h2 className="text-2xl font-semibold text-slate-100 mb-4 group-hover:text-slate-300">
-                Reads
-              </h2>
-              <p className="text-slate-200">
-                A curated collection of books that have shaped my understanding of technology, science, and society.
-              </p>
-            </div>
-          </Link>
-          
-          <Link href="/publications" className="group">
-            <div className="p-6 rounded-lg border border-slate-500 bg-slate-800/60 hover:border-slate-400 transition-colors shadow-sm">
-              <h2 className="text-2xl font-semibold text-slate-100 mb-4 group-hover:text-slate-300">
-                Publications
-              </h2>
-              <p className="text-slate-200">
-                My research work in genomics, computer vision, and machine learning applications in healthcare.
-              </p>
-            </div>
-          </Link>
-        </div>
 
         {/* About Section */}
         <section className="prose max-w-none">
