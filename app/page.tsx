@@ -165,7 +165,7 @@ export default function Home() {
                   </a>
                 </h4>
                 <p className="text-slate-200 mb-3">
-                  Developing computational tools and machine learning applications for genomics research, with a focus on protein structure prediction and genomic data analysis.
+                  The AQ lab applies novel developments in machine learning to domains in biology, with a particular focus on structural biology. I work on developing a billion-parameter genome language model -- mainly on the training and benchmark development side -- and also on guided diffusion for cogenerating protein sequence and structure. 
                 </p>
                 <p className="text-slate-400 text-sm mb-2">
                   <span className="font-medium">Research Advisor:</span> Mohammed AlQuraishi, Assistant Professor of Systems Biology & Computer Science
@@ -205,7 +205,7 @@ export default function Home() {
                   <p className="text-slate-400 text-sm mb-2">L4 SWE</p>
                   <p className="text-slate-400 text-sm mb-3">2023 - 2024</p>
                   <p className="text-slate-200 mb-3">
-                    Applied computer vision to classify skin lesions through the "Derm on Lens" project. Led launch of the new model, supporting first-ever ophthalmologic image classification. Contributed to research at the intersection of deep learning and genomics, including <a 
+                    Applied computer vision techniques to classify skin lesions through the "Derm on Lens" project. Led launch of the new model, supporting first-ever ophthalmologic image classification. Contributed to research at the intersection of deep learning and genomics, including <a 
                       href="https://google.github.io/deepvariant/"
                       target="_blank"
                       rel="noopener noreferrer"
