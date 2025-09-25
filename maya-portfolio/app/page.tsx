@@ -48,7 +48,7 @@ export default function Home() {
             Currently, I work in the AlQuraishi Lab at Columbia University, where I am developing a genome-scale language models for prokaryotic DNA. My work spans the full machine learning research stack—from data curation and infrastructure to model architecture design, training, and biological benchmarking. I am particularly interested in the challenges of modeling biological sequences at single-nucleotide resolution and ultra-long context lengths, which push the boundaries of current transformer architectures.\n
             In parallel to my research, I am pursuing a part-time Master's in Statistics at Columbia University, supported by the departmental MA2PhD Fellowship, which identifies students likely to pursue doctoral study in computational fields. I believe that rigorous statistical training is essential for advancing interpretable, efficient, and principled models in computational biology.
 
-            My interests within machine learning are both deep and broad, and I am considering multiple areas of focus for my PhD. I am particularly excited about the potential of diffusion models for protein design, as well as the use of reinforcement learning to guide exploration of conformational space. I am also drawn to novel AI techniques such as Hierarchical Dynamic Chunking from the Gu lab, valuing the idea of end-to-end, jointly optimized models that require less heuristic intervention. I believe that approaches like these will be especially relevant in biology, where data is inherently hierarchical, noisy, and context-dependent. I also see interpretability as a fascinating frontier in biological modeling, potentially enabling researchers to reverse engineer molecular contacts or mechanisms from patterns in model attention.
+            My interests within machine learning are both deep and broad, and I am considering multiple areas of focus for my PhD. I am particularly excited about the potential of diffusion models for protein design, as well as the use of reinforcement learning to guide exploration of conformational space. I am also drawn to novel AI techniques such as <a href="https://arxiv.org/abs/2507.07955" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-slate-100 underline decoration-2 underline-offset-4 transition-colors">Hierarchical Dynamic Chunking</a> from the Gu lab, valuing the idea of end-to-end, jointly optimized models that require less heuristic intervention. I believe that approaches like these will be especially relevant in biology, where data is inherently hierarchical, noisy, and context-dependent. I also see interpretability as a fascinating frontier in biological modeling, potentially enabling researchers to reverse engineer molecular contacts or mechanisms from patterns in model attention.
 
             In the past, I worked at Google Research, applying computer vision to dermatologic image classification (Derm on Lens). I also contributed on a 20% basis to genomics projects, including DeepVariant and DeepNull. Before that, I worked at YouTube Trust and Safety, building infrastructure for detecting abusive user behavior.
           </p>
@@ -73,7 +73,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-400 mr-3 mt-2">•</span>
-                    <span>Training methods that enable us to train at massive context lengths, with single-nucleotide resolution — think Hierarchical Dynamic Chunking</span>
+                    <span>Training methods that enable us to train at massive context lengths, with single-nucleotide resolution — think <a href="https://arxiv.org/abs/2507.07955" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-slate-100 underline decoration-2 underline-offset-4 transition-colors">Hierarchical Dynamic Chunking</a></span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-400 mr-3 mt-2">•</span>
@@ -126,10 +126,16 @@ export default function Home() {
                 <div className="text-lg text-slate-200 mb-4">Columbia Engineering &mdash; Salutatorian, Class of 2022, GPA 4.12</div>
                 <div className="mt-4">
                   <h4 className="text-lg font-semibold text-slate-100 mb-3">Relevant Coursework:</h4>
-                  <div className="text-slate-200 space-y-1">
-                    <div>CS: Artificial Intelligence, Applied Deep Learning, Computer Science Theory, Advanced Programming</div>
-                    <div>Math: Probability and Statistics, Linear Algebra, Multivariable Calculus, Proofs in Analysis</div>
-                    <div>Bio: Cellular and Molecular Biology I & II, General Chemistry I & II</div>
+                  <div className="text-slate-200 space-y-3">
+                    <div>
+                      <span className="font-semibold text-slate-100">CS:</span> Artificial Intelligence, Applied Deep Learning, Computer Science Theory, Advanced Programming
+                    </div>
+                    <div>
+                      <span className="font-semibold text-slate-100">Math:</span> Probability and Statistics, Linear Algebra, Multivariable Calculus, Proofs in Analysis
+                    </div>
+                    <div>
+                      <span className="font-semibold text-slate-100">Bio:</span> Cellular and Molecular Biology I & II, General Chemistry I & II
+                    </div>
                   </div>
                 </div>
               </div>
@@ -142,7 +148,7 @@ export default function Home() {
             <h2 className="font-bold text-slate-100 mb-8" style={{ fontSize: '30px' }}>Research</h2>
 
             {/* Current Research */}
-            <div className="mb-12">
+            <div className="mb-6">
               <h3 className="text-2xl font-semibold text-slate-100 mb-6">Current Research</h3>
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
                 <h4 className="text-xl font-medium text-slate-100 mb-3">
@@ -196,7 +202,7 @@ export default function Home() {
                   <p className="text-slate-400 text-sm mb-2">L4 SWE</p>
                   <p className="text-slate-400 text-sm mb-3">2023 - 2024</p>
                   <p className="text-slate-200 mb-3">
-                    Applied computer vision techniques to dermatologic image classification through the "Derm on Lens" project. Led launch of the new model, supporting first-ever ophthalmologic image classification. Contributed to research at the intersection of deep learning and genomics, including <a 
+                    Applied computer vision to classify skin lesions through the "Derm on Lens" project. Led launch of the new model, supporting first-ever ophthalmologic image classification. Contributed to research at the intersection of deep learning and genomics, including <a 
                       href="https://google.github.io/deepvariant/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -210,7 +216,7 @@ export default function Home() {
                       className="text-slate-300 hover:text-slate-100 underline decoration-2 underline-offset-4 transition-colors"
                     >
                       DeepNull
-                    </a> on a 20% basis.
+                    </a>.
                   </p>
                   <p className="text-slate-400 text-sm mb-3">
                     <span className="font-medium">Research Advisors:</span> Farhad Hormozdiari and Kishwar Shafin
@@ -246,12 +252,12 @@ export default function Home() {
 
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
                 <h4 className="text-xl font-medium text-slate-100 mb-1">
-                  YouTube Trust and Safety - ML Infrastructure
+                  YouTube Trust and Safety - ML Infra
                 </h4>
                   <p className="text-slate-400 text-sm mb-2">L3 -> L4 SWE</p>
                   <p className="text-slate-400 text-sm mb-3">2021 - 2023</p>
                   <p className="text-slate-200 mb-4">
-                    Built infrastructure for machine learning systems to detect abusive user behavior, improving platform safety at scale.
+                    Built ML infrastructure to detect abusive user behavior, improving platform safety at scale.
                   </p>
                   <div className="flex flex-wrap gap-1">
                     <span className="px-3 py-1 bg-slate-700 text-slate-200 rounded-full text-sm">ML Infrastructure</span>
@@ -353,7 +359,7 @@ export default function Home() {
                 <article className="bg-slate-800/30 p-6 rounded-lg border border-slate-600 hover:border-slate-500 transition-all duration-200 hover:shadow-lg">
                   <h4 className="text-xl font-semibold text-slate-100 mb-4 leading-tight">
                     <a
-                      href="https://doi.org/10.1002/solr.202100659"
+                      href="https://onlinelibrary.wiley.com/doi/abs/10.1002/solr.202100732"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:text-slate-300 transition-colors decoration-2 underline-offset-4 hover:underline"
@@ -367,16 +373,31 @@ export default function Home() {
                     </p>
                     <span className="text-slate-400 text-sm font-medium">(2022)</span>
                   </div>
-                  <p className="text-slate-400">
-                    <a
-                      href="https://doi.org/10.1002/solr.202100659"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:text-slate-200 transition-colors font-medium italic"
-                    >
-                      Solar RRL, 6(5)
-                    </a>
-                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4 text-slate-400">
+                    <p>
+                      <a
+                        href="https://doi.org/10.1002/solr.202100659"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-slate-200 transition-colors font-medium italic"
+                      >
+                        Solar RRL, 6(5)
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        href="https://www.osti.gov/servlets/purl/1976411"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-slate-400 hover:text-slate-200 underline decoration-2 underline-offset-4 transition-colors inline-flex items-center gap-1"
+                      >
+                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z" />
+                        </svg>
+                        PDF
+                      </a>
+                    </p>
+                  </div>
                 </article>
               </div>
             </div>
@@ -808,6 +829,10 @@ export default function Home() {
                     <span className="text-slate-400 mr-3 mt-2">💰</span>
                     <span>Bonomi Scholar - $5K Research Grant (2021)</span>
                   </li>
+                  <li className="flex items-start">
+                    <span className="text-slate-400 mr-3 mt-2">🌍</span>
+                    <span>Earth Institute Collaborative Research Grant - $5K (2021)</span>
+                  </li>
                 </ul>
               </div>
 
@@ -828,7 +853,7 @@ export default function Home() {
           <div className="text-center">
             <h2 className="text-2xl font-semibold text-slate-100 mb-2">Get in Touch</h2>
             <p className="text-slate-200">
-              Connect with me on <a href="https://www.linkedin.com/in/maya-venkatraman" className="text-slate-300 hover:text-slate-100 underline decoration-2 underline-offset-4 transition-colors" target="_blank" rel="noopener noreferrer">LinkedIn</a> or email me at{" "}
+              Connect with me on <a href="https://www.linkedin.com/in/mayavenkatraman2/" className="text-slate-300 hover:text-slate-100 underline decoration-2 underline-offset-4 transition-colors" target="_blank" rel="noopener noreferrer">LinkedIn</a> or email me at{" "}
               <a href="mailto:maya.venkatraman1@gmail.com" className="text-slate-300 hover:text-slate-100 underline decoration-2 underline-offset-4 transition-colors">maya.venkatraman1@gmail.com</a>
             </p>
           </div>
