@@ -127,9 +127,9 @@ export default function Home() {
                 <div className="mt-4">
                   <h4 className="text-lg font-semibold text-slate-100 mb-3">Relevant Coursework:</h4>
                   <div className="text-slate-200 space-y-1">
-                    <div>Artificial Intelligence, Applied Deep Learning, Computer Science Theory</div>
-                    <div>Programming Languages and Translators, Operating Systems, Computer Networks</div>
-                    <div>Introduction to Probability and Statistics, Linear Algebra, Multivariable Calculus, Introduction to Proofs in Analysis</div>
+                    <div>Artificial Intelligence, Applied Deep Learning, Computer Science Theory, Advanced Programming</div>
+                    <div>Probability and Statistics, Linear Algebra, Multivariable Calculus, Proofs in Analysis</div>
+                    <div>Cellular and Molecular Biology I & II, General Chemistry I & II</div>
                   </div>
                 </div>
               </div>
