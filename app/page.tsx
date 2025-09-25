@@ -40,7 +40,7 @@ export default function Home() {
 
         {/* About Section */}
         <section className="prose max-w-none">
-          <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '30px' }}>About Me</h2>
+          <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>About Me</h2>
           <p className="text-slate-200 mb-6 whitespace-pre-line">
             I&apos;m Maya Venkatraman, a Research Software Engineer at the AlQuraishi Laboratory at Columbia University.\n\n
 
@@ -57,7 +57,7 @@ export default function Home() {
         {/* Research Interests Section */}
         <section id="research-interests" className="mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
-            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '30px' }}>Research Interests</h2>
+            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>Research Interests</h2>
 
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
@@ -109,7 +109,7 @@ export default function Home() {
         {/* Education Section */}
         <section id="education" className="mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
-            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '30px' }}>Education</h2>
+            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>Education</h2>
 
             <div className="space-y-6">
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
@@ -149,7 +149,7 @@ export default function Home() {
         {/* Research Section */}
         <section id="research" className="mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
-            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '30px' }}>Research</h2>
+            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>Research</h2>
 
             <div className="space-y-6">
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
@@ -193,7 +193,7 @@ export default function Home() {
         {/* Industry Section */}
         <section id="industry" className="mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
-            <h2 className="font-bold text-slate-100 mb-6" style={{fontSize: '30px'}}>Industry</h2>
+            <h2 className="font-bold text-slate-100 mb-6" style={{fontSize: '28px'}}>Industry</h2>
             
             <div className="space-y-6">
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
@@ -274,7 +274,7 @@ export default function Home() {
         {/* Publications Section */}
         <section id="publications" className="mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
-            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '30px' }}>Publications</h2>
+            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>Publications</h2>
 
             {/* Introduction */}
             <div className="mb-8">
@@ -424,7 +424,7 @@ export default function Home() {
         {/* News Section */}
         <section id="news" className="mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
-            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '30px' }}>News</h2>
+            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>News</h2>
 
             <div className="space-y-6">
               {/* 2025 NSF Fellowship */}
@@ -693,7 +693,7 @@ export default function Home() {
         {/* Awards Section */}
         <section id="awards" className="mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
-            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '30px' }}>Awards</h2>
+            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>Awards</h2>
 
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
