@@ -55,9 +55,9 @@ export default function Home() {
         </section>
 
         {/* Research Interests Section */}
-        <section id="research" className="mb-8">
+        <section id="research-interests" className="mb-8">
           <div className="border-b border-slate-600 pb-8 mb-8">
-            <h2 className="font-bold text-slate-100 mb-8" style={{ fontSize: '30px' }} style={{ fontSize: '30px' }}>Research Interests</h2>
+            <h2 className="font-bold text-slate-100 mb-8" style={{ fontSize: '30px' }}>Research Interests</h2>
 
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
@@ -87,15 +87,19 @@ export default function Home() {
                 <ul className="space-y-2 text-slate-200">
                   <li className="flex items-start">
                     <span className="text-slate-400 mr-3 mt-2">•</span>
-                    <span>Computer vision for dermatologic image classification</span>
+                    <span>Developing serum diagnostics through clever statistics, ML and high throughput technologies</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-400 mr-3 mt-2">•</span>
-                    <span>Deep learning applications in genomics</span>
+                    <span>Real-time integration of experimental results into ML methods to accelerate discovery</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-400 mr-3 mt-2">•</span>
-                    <span>ML infrastructure for healthcare applications</span>
+                    <span>Causal inference to uncover mechanisms in chronic disease</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-slate-400 mr-3 mt-2">•</span>
+                    <span>Robotic or cloud laboratories</span>
                   </li>
                 </ul>
               </div>
@@ -144,12 +148,11 @@ export default function Home() {
         </section>
         {/* Research Section */}
         <section id="research" className="mb-0">
-          <div className="border-b border-slate-600 pb-8 mb-4">
+          <div className="border-b border-slate-600 pb-6 mb-2">
             <h2 className="font-bold text-slate-100 mb-8" style={{ fontSize: '30px' }}>Research</h2>
 
             {/* Current Research */}
             <div className="mb-6">
-              <h3 className="text-2xl font-semibold text-slate-100 mb-6">Current Research</h3>
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
                 <h4 className="text-xl font-medium text-slate-100 mb-3">
                   Research Software Engineer at the <a 
@@ -254,7 +257,7 @@ export default function Home() {
                 <h4 className="text-xl font-medium text-slate-100 mb-1">
                   YouTube Trust and Safety - ML Infra
                 </h4>
-                  <p className="text-slate-400 text-sm mb-2">L3 -> L4 SWE</p>
+                  <p className="text-slate-400 text-sm mb-2">L3 → L4 SWE</p>
                   <p className="text-slate-400 text-sm mb-3">2021 - 2023</p>
                   <p className="text-slate-200 mb-4">
                     Built ML infrastructure to detect abusive user behavior, improving platform safety at scale.
@@ -837,11 +840,11 @@ export default function Home() {
               </div>
 
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
-                <h3 className="text-xl font-semibold text-slate-100 mb-4">Placeholder</h3>
+                <h3 className="text-xl font-semibold text-slate-100 mb-4">Industry Awards</h3>
                 <ul className="space-y-3 text-slate-200">
                   <li className="flex items-start">
                     <span className="text-slate-400 mr-3 mt-2">📝</span>
-                    <span>Content to be added</span>
+                    <span>Coming Soon...</span>
                   </li>
                 </ul>
               </div>
