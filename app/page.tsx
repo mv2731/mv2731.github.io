@@ -55,9 +55,9 @@ export default function Home() {
         </section>
 
         {/* Research Interests Section */}
-        <section id="research-interests" className="mb-8">
-          <div className="border-b border-slate-600 pb-8 mb-8">
-            <h2 className="font-bold text-slate-100 mb-8" style={{ fontSize: '30px' }}>Research Interests</h2>
+        <section id="research-interests" className="mb-6">
+          <div className="border-b border-slate-600 pb-6 mb-6">
+            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '30px' }}>Research Interests</h2>
 
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
@@ -107,9 +107,9 @@ export default function Home() {
           </div>
         </section>
         {/* Education Section */}
-        <section id="education" className="mb-8">
-          <div className="border-b border-slate-600 pb-8 mb-8">
-            <h2 className="font-bold text-slate-100 mb-8" style={{ fontSize: '30px' }}>Education</h2>
+        <section id="education" className="mb-6">
+          <div className="border-b border-slate-600 pb-6 mb-6">
+            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '30px' }}>Education</h2>
 
             <div className="space-y-6">
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
@@ -147,9 +147,9 @@ export default function Home() {
           </div>
         </section>
         {/* Research Section */}
-        <section id="research" className="mb-8">
-          <div className="border-b border-slate-600 pb-8 mb-8">
-            <h2 className="font-bold text-slate-100 mb-8" style={{ fontSize: '30px' }}>Research</h2>
+        <section id="research" className="mb-6">
+          <div className="border-b border-slate-600 pb-6 mb-6">
+            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '30px' }}>Research</h2>
 
             {/* Current Research */}
             <div className="mb-8">
@@ -193,9 +193,9 @@ export default function Home() {
           </div>
         </section>
         {/* Industry Section */}
-        <section id="industry" className="mb-8">
-          <div className="border-b border-slate-600 pb-8 mb-8">
-            <h2 className="font-bold text-slate-100 mb-8" style={{fontSize: '30px'}}>Industry</h2>
+        <section id="industry" className="mb-6">
+          <div className="border-b border-slate-600 pb-6 mb-6">
+            <h2 className="font-bold text-slate-100 mb-6" style={{fontSize: '30px'}}>Industry</h2>
             
             <div className="space-y-6">
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
@@ -274,9 +274,9 @@ export default function Home() {
           </div>
         </section>
         {/* Publications Section */}
-        <section id="publications" className="mb-8">
-          <div className="border-b border-slate-600 pb-8 mb-8">
-            <h2 className="font-bold text-slate-100 mb-8" style={{ fontSize: '30px' }}>Publications</h2>
+        <section id="publications" className="mb-6">
+          <div className="border-b border-slate-600 pb-6 mb-6">
+            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '30px' }}>Publications</h2>
 
             {/* Introduction */}
             <div className="mb-8">
@@ -424,9 +424,9 @@ export default function Home() {
           </div>
         </section>
         {/* News Section */}
-        <section id="news" className="mb-8">
-          <div className="border-b border-slate-600 pb-8 mb-8">
-            <h2 className="font-bold text-slate-100 mb-8" style={{ fontSize: '30px' }}>News</h2>
+        <section id="news" className="mb-6">
+          <div className="border-b border-slate-600 pb-6 mb-6">
+            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '30px' }}>News</h2>
 
             <div className="space-y-6">
               {/* 2025 NSF Fellowship */}
@@ -693,9 +693,9 @@ export default function Home() {
         </section>
 
         {/* Awards Section */}
-        <section id="awards" className="mb-8">
-          <div className="border-b border-slate-600 pb-8 mb-8">
-            <h2 className="font-bold text-slate-100 mb-8" style={{ fontSize: '30px' }}>Awards</h2>
+        <section id="awards" className="mb-6">
+          <div className="border-b border-slate-600 pb-6 mb-6">
+            <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '30px' }}>Awards</h2>
 
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
