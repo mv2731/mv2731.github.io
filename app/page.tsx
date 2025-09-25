@@ -39,7 +39,7 @@ export default function Home() {
 
 
         {/* About Section */}
-        <section className="mb-6">
+        <section className="prose max-w-none mb-6">
           <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>About Me</h2>
           <p className="text-slate-200 mb-6 whitespace-pre-line">
             I&apos;m Maya Venkatraman, a Research Software Engineer at the AlQuraishi Laboratory at Columbia University.\n\n
@@ -55,7 +55,7 @@ export default function Home() {
         </section>
 
         {/* Research Interests Section */}
-        <section id="research-interests" className="mb-6">
+        <section id="research-interests" className="prose max-w-none mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
             <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>Research Interests</h2>
 
@@ -107,7 +107,7 @@ export default function Home() {
           </div>
         </section>
         {/* Education Section */}
-        <section id="education" className="mb-6">
+        <section id="education" className="prose max-w-none mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
             <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>Education</h2>
 
@@ -147,7 +147,7 @@ export default function Home() {
           </div>
         </section>
         {/* Research Section */}
-        <section id="research" className="mb-6">
+        <section id="research" className="prose max-w-none mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
             <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>Research</h2>
 
@@ -191,7 +191,7 @@ export default function Home() {
           </div>
         </section>
         {/* Industry Section */}
-        <section id="industry" className="mb-6">
+        <section id="industry" className="prose max-w-none mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
             <h2 className="font-bold text-slate-100 mb-6" style={{fontSize: '28px'}}>Industry</h2>
             
@@ -272,7 +272,7 @@ export default function Home() {
           </div>
         </section>
         {/* Publications Section */}
-        <section id="publications" className="mb-6">
+        <section id="publications" className="prose max-w-none mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
             <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>Publications</h2>
 
@@ -422,7 +422,7 @@ export default function Home() {
           </div>
         </section>
         {/* News Section */}
-        <section id="news" className="mb-6">
+        <section id="news" className="prose max-w-none mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
             <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>News</h2>
 
@@ -691,7 +691,7 @@ export default function Home() {
         </section>
 
         {/* Awards Section */}
-        <section id="awards" className="mb-6">
+        <section id="awards" className="prose max-w-none mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
             <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>Awards</h2>
 
