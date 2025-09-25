@@ -165,7 +165,7 @@ export default function Home() {
                   </a>
                 </h4>
                 <p className="text-slate-200 mb-3">
-                  The AQ lab applies novel developments in machine learning to domains in biology, with a particular focus on structural biology. I work on developing a billion-parameter genome language model -- mainly on the training and benchmark development side -- and also on guided diffusion for cogenerating protein sequence and structure. 
+                  The AQ lab applies novel developments in machine learning to domains in biology, with a particular focus on structure. I work on developing a billion-parameter genome language model -- mainly on the training and benchmark development side -- but also on guided diffusion for cogenerating protein sequence and structure. 
                 </p>
                 <p className="text-slate-400 text-sm mb-2">
                   <span className="font-medium">Research Advisor:</span> Mohammed AlQuraishi, Assistant Professor of Systems Biology & Computer Science
@@ -199,7 +199,7 @@ export default function Home() {
             
             <div className="space-y-6">
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
-                  <h4 className="text-xl font-medium text-slate-100 mb-1">
+                  <h4 className="text-xl font-semibold text-slate-100 mb-1">
                     Google Research - Health AI
                   </h4>
                   <p className="text-slate-400 text-sm mb-2">L4 SWE</p>
@@ -254,7 +254,7 @@ export default function Home() {
                 </div>
 
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
-                <h4 className="text-xl font-medium text-slate-100 mb-1">
+                <h4 className="text-xl font-semibold text-slate-100 mb-1">
                   YouTube Trust and Safety - ML Infra
                 </h4>
                   <p className="text-slate-400 text-sm mb-2">L3 → L4 SWE</p>
