@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -43,11 +42,12 @@ export default function Home() {
         <section className="prose max-w-none">
           <h2 className="text-2xl font-semibold text-slate-100 mb-4">About Me</h2>
           <p className="text-slate-200 mb-6 whitespace-pre-line">
-            I'm Maya Venkatraman, a Research Software Engineer at the AlQuraishi Laboratory.
+            I&apos;m Maya Venkatraman, a Research Software Engineer at the AlQuraishi Laboratory.
 
             Currently, I work in the AlQuraishi Lab at Columbia University, where I am developing a genome-scale language models for prokaryotic DNA. My work spans the full machine learning research stack—from data curation and infrastructure to model architecture design, training, and biological benchmarking. I am particularly interested in the challenges of modeling biological sequences at single-nucleotide resolution and ultra-long context lengths, which push the boundaries of current transformer architectures.\n
-            In parallel to my research, I am pursuing a part-time Master's in Statistics at Columbia University, supported by the departmental MA2PhD Fellowship, which identifies students likely to pursue doctoral study in computational fields. I believe that rigorous statistical training is essential for advancing interpretable, efficient, and principled models in computational biology.
+            In parallel to my research, I am pursuing a part-time Master&apos;s in Statistics at Columbia University, supported by the departmental MA2PhD Fellowship, which identifies students likely to pursue doctoral study in computational fields. I believe that rigorous statistical training is essential for advancing interpretable, efficient, and principled models in computational biology.
 
+            
             My interests within machine learning are both deep and broad, and I am considering multiple areas of focus for my PhD. I am particularly excited about the potential of diffusion models for protein design, as well as the use of reinforcement learning to guide exploration of conformational space. I am also drawn to novel AI techniques such as <a href="https://arxiv.org/abs/2507.07955" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-slate-100 underline decoration-2 underline-offset-4 transition-colors">Hierarchical Dynamic Chunking</a> from the Gu lab, valuing the idea of end-to-end, jointly optimized models that require less heuristic intervention. I believe that approaches like these will be especially relevant in biology, where data is inherently hierarchical, noisy, and context-dependent. I also see interpretability as a fascinating frontier in biological modeling, potentially enabling researchers to reverse engineer molecular contacts or mechanisms from patterns in model attention.
 
             In the past, I worked at Google Research, applying computer vision to dermatologic image classification (Derm on Lens). I also contributed on a 20% basis to genomics projects, including DeepVariant and DeepNull. Before that, I worked at YouTube Trust and Safety, building infrastructure for detecting abusive user behavior.
@@ -205,7 +205,7 @@ export default function Home() {
                   <p className="text-slate-400 text-sm mb-2">L4 SWE</p>
                   <p className="text-slate-400 text-sm mb-3">2023 - 2024</p>
                   <p className="text-slate-200 mb-3">
-                    Applied computer vision techniques to classify skin lesions through the "Derm on Lens" project. Led launch of the new model, supporting first-ever ophthalmologic image classification. Contributed to research at the intersection of deep learning and genomics, including <a 
+                    Applied computer vision techniques to classify skin lesions through the &quot;Derm on Lens&quot; project. Led launch of the new model, supporting first-ever ophthalmologic image classification. Contributed to research at the intersection of deep learning and genomics, including <a 
                       href="https://google.github.io/deepvariant/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -231,7 +231,7 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="text-slate-300 hover:text-slate-100 underline decoration-2 underline-offset-4 transition-colors"
                     >
-                      U.S. Dermatology Partners: "I Used Google Lens To Check for Skin Cancer—Here's What Happened"
+                      U.S. Dermatology Partners: &quot;I Used Google Lens To Check for Skin Cancer—Here&apos;s What Happened&quot;
                     </a>
                   </p>
                   <p className="text-slate-300 text-sm mb-4">
@@ -503,7 +503,7 @@ export default function Home() {
                   <span className="text-slate-400 text-sm font-medium">2022</span>
                 </div>
                 <p className="text-slate-200 mb-3">
-                  Selected as Salutatorian of Columbia Engineering's Class of 2022, recognizing exceptional academic achievement throughout undergraduate studies in computer science.
+                  Selected as Salutatorian of Columbia Engineering&apos;s Class of 2022, recognizing exceptional academic achievement throughout undergraduate studies in computer science.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <p className="text-slate-300">
@@ -544,7 +544,7 @@ export default function Home() {
                   <span className="text-slate-400 text-sm font-medium">2021</span>
                 </div>
                 <p className="text-slate-200 mb-3">
-                  Received Honorable Mention in the National Center for Women & Information Technology (NCWIT) Collegiate Award for the project "Adding YouTube HLS Output to OBS (Open Broadcaster Software)" -- recognizing outstanding computing accomplishments and technical innovation.
+                  Received Honorable Mention in the National Center for Women & Information Technology (NCWIT) Collegiate Award for the project &quot;Adding YouTube HLS Output to OBS (Open Broadcaster Software)&quot; -- recognizing outstanding computing accomplishments and technical innovation.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <p className="text-slate-300">
@@ -617,7 +617,7 @@ export default function Home() {
                   <span className="text-slate-400 text-sm font-medium">2021</span>
                 </div>
                 <p className="text-slate-200 mb-3">
-                  Received the Russell C. Mills Award from Columbia University's Computer Science Department, recognizing majors who have demonstrated exceptional achievement in the field.
+                  Received the Russell C. Mills Award from Columbia University&apos;s Computer Science Department, recognizing majors who have demonstrated exceptional achievement in the field.
                 </p>
                 <p className="text-slate-300 text-sm">
                   Featured in <a 
@@ -675,7 +675,7 @@ export default function Home() {
                   <span className="text-slate-400 text-sm font-medium">2017</span>
                 </div>
                 <p className="text-slate-200 mb-3">
-                  Selected as a semifinalist for the prestigious U.S. Presidential Scholars Program, one of the nation's highest honors for high school students, recognizing exceptional academic achievement and potential for leadership.
+                  Selected as a semifinalist for the prestigious U.S. Presidential Scholars Program, one of the nation&apos;s highest honors for high school students, recognizing exceptional academic achievement and potential for leadership.
                 </p>
                 <p className="text-slate-300 text-sm">
                   Listed in <a
