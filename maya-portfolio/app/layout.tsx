@@ -36,6 +36,7 @@ export default function RootLayout({
               <a href="/" className="text-slate-200 hover:text-slate-100">Home</a>
               <a href="#education" className="text-slate-200 hover:text-slate-100">Education</a>
               <a href="#research" className="text-slate-200 hover:text-slate-100">Research</a>
+              <a href="#industry" className="text-slate-200 hover:text-slate-100">Industry</a>
               <a href="#publications" className="text-slate-200 hover:text-slate-100">Publications</a>
               <a href="#news" className="text-slate-200 hover:text-slate-100">News</a>
               <a href="#awards" className="text-slate-200 hover:text-slate-100">Awards</a>
