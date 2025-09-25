@@ -148,7 +148,7 @@ export default function Home() {
         </section>
         {/* Research Section */}
         <section id="research" className="mb-0">
-          <div className="border-b border-slate-600 pb-6 mb-2">
+          <div className="border-b border-slate-600 pb-8 mb-8">
             <h2 className="font-bold text-slate-100 mb-8" style={{ fontSize: '30px' }}>Research</h2>
 
             {/* Current Research */}
@@ -194,7 +194,7 @@ export default function Home() {
         </section>
         {/* Industry Section */}
         <section id="industry" className="mb-0">
-          <div className="border-b border-slate-600 pb-8 mb-4">
+          <div className="border-b border-slate-600 pb-8 mb-8">
             <h2 className="font-bold text-slate-100 mb-8" style={{fontSize: '30px'}}>Industry</h2>
             
             <div className="space-y-6">
