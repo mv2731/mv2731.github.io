@@ -40,7 +40,7 @@ export default function Home() {
 
         {/* About Section */}
         <section className="prose max-w-none">
-          <h2 className="text-2xl font-semibold text-slate-100 mb-4">About Me</h2>
+          <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '30px' }}>About Me</h2>
           <p className="text-slate-200 mb-6 whitespace-pre-line">
             I&apos;m Maya Venkatraman, a Research Software Engineer at the AlQuraishi Laboratory at Columbia University.\n\n
 
