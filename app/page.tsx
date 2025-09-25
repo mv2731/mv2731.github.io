@@ -151,8 +151,7 @@ export default function Home() {
           <div className="border-b border-slate-600 pb-6 mb-6">
             <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '30px' }}>Research</h2>
 
-            {/* Current Research */}
-            <div className="mb-4">
+            <div className="space-y-6">
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
                 <h4 className="text-xl font-medium text-slate-100 mb-3">
                   Research Software Engineer at the <a 
