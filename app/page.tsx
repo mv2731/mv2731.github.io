@@ -42,9 +42,9 @@ export default function Home() {
         <section className="prose max-w-none">
           <h2 className="text-2xl font-semibold text-slate-100 mb-4">About Me</h2>
           <p className="text-slate-200 mb-6 whitespace-pre-line">
-            I&apos;m Maya Venkatraman, a Research Software Engineer at the AlQuraishi Laboratory.
+            I&apos;m Maya Venkatraman, a Research Software Engineer at the AlQuraishi Laboratory at Columbia University.\n
 
-            Currently, I work in the AlQuraishi Lab at Columbia University, where I am developing a genome-scale language models for prokaryotic DNA. My work spans the full machine learning research stack—from data curation and infrastructure to model architecture design, training, and biological benchmarking. I am particularly interested in the challenges of modeling biological sequences at single-nucleotide resolution and ultra-long context lengths, which push the boundaries of current transformer architectures.\n
+            Currently, I work on developing a billion-parameter genome language model trained on prokaryotic DNA. My work spans the full ML research stack—from data curation and infrastructure to model architecture design, training, and biological benchmarking. I am particularly interested in the challenges of modeling biological sequences at single-nucleotide resolution and ultra-long context lengths, which push the boundaries of current transformer architectures.\n
             In parallel to my research, I am pursuing a part-time Master&apos;s in Statistics at Columbia University, supported by the departmental MA2PhD Fellowship, which identifies students likely to pursue doctoral study in computational fields. I believe that rigorous statistical training is essential for advancing interpretable, efficient, and principled models in computational biology.
 
             
