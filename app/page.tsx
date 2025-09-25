@@ -36,7 +36,6 @@ export default function Home() {
 
       {/* Main Content */}
       <main className="pt-0 pb-16 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-
         {/* About Section */}
         <section className="prose max-w-none mb-6">
           <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>About Me</h2>
