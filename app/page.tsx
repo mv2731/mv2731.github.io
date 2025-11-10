@@ -39,17 +39,27 @@ export default function Home() {
         {/* About Section */}
         <section className="prose max-w-none mb-6 -mt-4">
           <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>About Me</h2>
-          <p className="text-slate-200 mb-6 whitespace-pre-line">
-            I&apos;m Maya Venkatraman, a Research Software Engineer at the AlQuraishi Laboratory at Columbia University.\n\n
-
-            Currently, I work on developing a billion-parameter genome language model trained on prokaryotic DNA. My work spans the full ML research stack—from data curation and infrastructure to model architecture design, training, and biological benchmarking. I am particularly interested in the challenges of modeling biological sequences at single-nucleotide resolution and ultra-long context lengths, which push the boundaries of current transformer architectures.\n
-            In parallel to my research, I am pursuing a part-time Master&apos;s in Statistics at Columbia University, supported by the departmental MA2PhD Fellowship, which identifies students likely to pursue doctoral study in computational fields. I believe that rigorous statistical training is essential for advancing interpretable, efficient, and principled models in computational biology.
-
+          <div className="text-slate-200 mb-6 space-y-4">
+            <p>
+              I&apos;m Maya Venkatraman, a Research Software Engineer at the AlQuraishi Laboratory at Columbia University.
+            </p>
             
-            My interests within machine learning are both deep and broad, and I am considering multiple areas of focus for my PhD. I am particularly excited about the potential of diffusion models for protein design, as well as the use of reinforcement learning to guide exploration of conformational space. I am also drawn to novel AI techniques such as <a href="https://arxiv.org/abs/2507.07955" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-slate-100 underline decoration-2 underline-offset-4 transition-colors">Hierarchical Dynamic Chunking</a> from the Gu lab, valuing the idea of end-to-end, jointly optimized models that require less heuristic intervention. I believe that approaches like these will be especially relevant in biology, where data is inherently hierarchical, noisy, and context-dependent. I also see interpretability as a fascinating frontier in biological modeling, potentially enabling researchers to reverse engineer molecular contacts or mechanisms from patterns in model attention.
-
-            In the past, I worked at Google Research, applying computer vision to dermatologic image classification (Derm on Lens). I also contributed on a 20% basis to genomics projects, including DeepVariant and DeepNull. Before that, I worked at YouTube Trust and Safety, building infrastructure for detecting abusive user behavior.
-          </p>
+            <p>
+              Currently, I work on developing a billion-parameter genome language model trained on prokaryotic DNA. My work spans the full ML research stack—from data curation and infrastructure to model architecture design, training, and biological benchmarking. I am particularly interested in the challenges of modeling biological sequences at single-nucleotide resolution and ultra-long context lengths, which push the boundaries of current transformer architectures.
+            </p>
+            
+            <p>
+              In parallel to my research, I am pursuing a part-time Master&apos;s in Statistics at Columbia University, supported by the departmental MA2PhD Fellowship, which identifies students likely to pursue doctoral study in computational fields. I believe that rigorous statistical training is essential for advancing interpretable, efficient, and principled models in computational biology.
+            </p>
+            
+            <p>
+              My interests within machine learning are both deep and broad, and I am considering multiple areas of focus for my PhD. I am particularly excited about the potential of diffusion models for protein design, as well as the use of reinforcement learning to guide exploration of conformational space. I am also drawn to novel AI techniques such as <a href="https://arxiv.org/abs/2507.07955" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-slate-100 underline decoration-2 underline-offset-4 transition-colors">Hierarchical Dynamic Chunking</a> from the Gu lab, valuing the idea of end-to-end, jointly optimized models that require less heuristic intervention. I believe that approaches like these will be especially relevant in biology, where data is inherently hierarchical, noisy, and context-dependent. I also see interpretability as a fascinating frontier in biological modeling, potentially enabling researchers to reverse engineer molecular contacts or mechanisms from patterns in model attention.
+            </p>
+            
+            <p>
+              In the past, I worked at Google Research, applying computer vision to dermatologic image classification (Derm on Lens). I also contributed on a 20% basis to genomics projects, including DeepVariant and DeepNull. Before that, I worked at YouTube Trust and Safety, building infrastructure for detecting abusive user behavior.
+            </p>
+          </div>
         </section>
 
         {/* Research Interests Section */}
