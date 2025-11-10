@@ -172,7 +172,13 @@ export default function Home() {
                   </a>
                 </h4>
                 <p className="text-slate-200 mb-3">
-                  The AQ lab applies novel developments in machine learning to domains in biology, with a particular focus on structure. I work on developing a billion-parameter genome language model -- mainly on the training and benchmark development side -- but also on guided diffusion for cogenerating protein sequence and structure. 
+                  Core member of team developing a billion-parameter prokaryotic genome language model (GLM) by scaling a BERT-style transformer with an MLM objective. 
+                  <br />
+                  Explored selective learning and distributed training methods to enhance model training efficiency.
+                  <br />
+                  Designed and implemented novel biological benchmarks and reformulated existing benchmarks to assess scaling laws in our GLM. 
+                  <br />
+                  Co-developed a novel architecture for co-generating protein structure and sequence using diffusion. 
                 </p>
                 <p className="text-slate-400 text-sm mb-2">
                   <span className="font-medium">Research Advisor:</span> Mohammed AlQuraishi, Assistant Professor of Systems Biology & Computer Science
