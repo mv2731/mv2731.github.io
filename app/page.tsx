@@ -37,7 +37,7 @@ export default function Home() {
       {/* Main Content */}
       <main className="pt-0 pb-16 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         {/* About Section */}
-        <section className="prose max-w-none mb-6 -mt-4">
+        <section className="max-w-none mb-6 -mt-4">
           <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>About Me</h2>
           <div className="text-slate-200 mb-6 space-y-4">
             <p>
@@ -63,7 +63,7 @@ export default function Home() {
         </section>
 
         {/* Research Interests Section */}
-        <section id="research-interests" className="prose max-w-none mb-6">
+        <section id="research-interests" className="max-w-none mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
             <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>Research Interests</h2>
 
@@ -115,7 +115,7 @@ export default function Home() {
           </div>
         </section>
         {/* Education Section */}
-        <section id="education" className="prose max-w-none mb-6">
+        <section id="education" className="max-w-none mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
             <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>Education</h2>
 
@@ -155,7 +155,7 @@ export default function Home() {
           </div>
         </section>
         {/* Research Section */}
-        <section id="research" className="prose max-w-none mb-6">
+        <section id="research" className="max-w-none mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
             <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>Research</h2>
 
@@ -199,7 +199,7 @@ export default function Home() {
           </div>
         </section>
         {/* Industry Section */}
-        <section id="industry" className="prose max-w-none mb-6">
+        <section id="industry" className="max-w-none mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
             <h2 className="font-bold text-slate-100 mb-6" style={{fontSize: '28px'}}>Industry</h2>
             
@@ -280,7 +280,7 @@ export default function Home() {
           </div>
         </section>
         {/* Publications Section */}
-        <section id="publications" className="prose max-w-none mb-6">
+        <section id="publications" className="max-w-none mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
             <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>Publications</h2>
 
@@ -430,7 +430,7 @@ export default function Home() {
           </div>
         </section>
         {/* News Section */}
-        <section id="news" className="prose max-w-none mb-6">
+        <section id="news" className="max-w-none mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
             <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>News</h2>
 
@@ -699,7 +699,7 @@ export default function Home() {
         </section>
 
         {/* Awards Section */}
-        <section id="awards" className="prose max-w-none mb-6">
+        <section id="awards" className="max-w-none mb-6">
           <div className="border-b border-slate-600 pb-6 mb-6">
             <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>Awards</h2>
 
