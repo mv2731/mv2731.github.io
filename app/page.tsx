@@ -123,7 +123,7 @@ export default function Home() {
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
                 <h3 className="text-2xl font-bold text-slate-100 mb-8 text-slate-100 mb-3">Master of Arts in Statistics</h3>
                 <div className="text-lg text-slate-200 mb-2">Columbia University (2025 - present)</div>
-                <div className="text-slate-300 mb-4">Supported by full-ride MA2PhD scholarship</div>
+                <div className="text-slate-300 mb-4">Supported by MA2PhD meritscholarship</div>
                 <div className="mt-4">
                   <h4 className="text-lg font-semibold text-slate-100 mb-3">Relevant Coursework:</h4>
                   <ul className="grid grid-cols-1 gap-2 text-slate-200">
@@ -835,7 +835,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-400 mr-3 mt-2">🏫</span>
-                    <span>Columbia GSAS MA2PhD Full-Ride Scholarship (2025)</span>
+                    <span>Columbia GSAS MA2PhD Merit Scholarship (2025)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-400 mr-3 mt-2">💰</span>
