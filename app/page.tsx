@@ -451,7 +451,7 @@ export default function Home() {
                   <span className="text-slate-400 text-sm font-medium">2025</span>
                 </div>
                 <p className="text-slate-200 mb-3">
-                  Selected as a recipient of the prestigious National Science Foundation Computer and Information Science and Engineering Graduate Fellowship (CSGrad4US), which provides three years of full funding for my PhD in computer science.
+                  Selected as a recipient of the National Science Foundation's (NSF) Computer and Information Science and Engineering Graduate Fellowship (CSGrad4US), which provides three years of full funding for my PhD in computer science.
                 </p>
                 <p className="text-slate-300 text-sm">
                   Featured on <a
@@ -681,7 +681,7 @@ export default function Home() {
                   <span className="text-slate-400 text-sm font-medium">2017</span>
                 </div>
                 <p className="text-slate-200 mb-3">
-                  Selected as a semifinalist for the prestigious U.S. Presidential Scholars Program, one of the nation&apos;s highest honors for high school students, recognizing exceptional academic achievement and potential for leadership.
+                  Selected as a semifinalist for the U.S. Presidential Scholars Program, one of the nation's highest honors for high school students, recognizing exceptional academic achievement and potential for leadership.
                 </p>
                 <p className="text-slate-300 text-sm">
                   Listed in <a
