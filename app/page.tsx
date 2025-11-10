@@ -173,11 +173,8 @@ export default function Home() {
                 </h4>
                 <p className="text-slate-200 mb-3">
                   Core member of team developing a billion-parameter prokaryotic genome language model (GLM) by scaling a BERT-style transformer with an MLM objective. 
-                  <br />
                   Explored selective learning and distributed training methods to enhance model training efficiency.
-                  <br />
                   Designed and implemented novel biological benchmarks and reformulated existing benchmarks to assess scaling laws in our GLM. 
-                  <br />
                   Co-developed a novel architecture for co-generating protein structure and sequence using diffusion. 
                 </p>
                 <p className="text-slate-400 text-sm mb-2">
