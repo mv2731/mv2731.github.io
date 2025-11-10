@@ -71,7 +71,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-400 mr-3 mt-2">•</span>
-                    <span>Training methods that enable us to train at massive context lengths, with single-nucleotide resolution — think <a href="https://arxiv.org/abs/2507.07955" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-slate-100 underline decoration-2 underline-offset-4 transition-colors">Hierarchical Dynamic Chunking</a></span>
+                    <span>Training methods that enable us to train at biology-scale context lengths, with single-nucleotide resolution — think <a href="https://arxiv.org/abs/2507.07955" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-slate-100 underline decoration-2 underline-offset-4 transition-colors">Hierarchical Dynamic Chunking</a></span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-400 mr-3 mt-2">•</span>
