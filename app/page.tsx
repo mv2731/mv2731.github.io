@@ -594,7 +594,7 @@ export default function Home() {
                   <span className="text-slate-400 text-sm font-medium">2021</span>
                 </div>
                 <p className="text-slate-200 mb-3">
-                  Recognized by Columbia University for improving inclusivity in computer science classes and exceptional leadership as head teaching assistant, coordinating teaching staff during the early pandemic to ensure positive stuent experience.
+                  Recognized by Columbia University for improving inclusivity in computer science classes and demonstrating leadership as head teaching assistant, coordinating teaching staff during the early pandemic to ensure positive student experience.
                 </p>
                 <p className="text-slate-300 text-sm">
                   Featured on <a
@@ -652,7 +652,7 @@ export default function Home() {
                   <span className="text-slate-400 text-sm font-medium">2017</span>
                 </div>
                 <p className="text-slate-200 mb-3">
-                  Selected as one of six Newton students to win the prestigious National Merit $2,500 Scholarship, chosen from over 15,000 finalists nationwide in the 2017 National Merit Scholarship Program.
+                  Selected as one of six Newton students to win the National Merit $2,500 Scholarship, chosen from over 15,000 finalists nationwide in the 2017 National Merit Scholarship Program.
                 </p>
                 <p className="text-slate-300 text-sm">
                   Featured in <a
@@ -681,7 +681,7 @@ export default function Home() {
                   <span className="text-slate-400 text-sm font-medium">2017</span>
                 </div>
                 <p className="text-slate-200 mb-3">
-                  Selected as a semifinalist for the U.S. Presidential Scholars Program, one of the nation's highest honors for high school students, recognizing exceptional academic achievement and potential for leadership.
+                  Selected as a semifinalist for the U.S. Presidential Scholars Program, one of the nation's highest honors for high school students, recognizing superior academic achievement and potential for leadership.
                 </p>
                 <p className="text-slate-300 text-sm">
                   Listed in <a
