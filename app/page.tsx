@@ -41,7 +41,7 @@ export default function Home() {
           <h2 className="font-bold text-slate-100 mb-6" style={{ fontSize: '28px' }}>About Me</h2>
           <div className="text-slate-200 mb-6 space-y-4">
             <p>
-              I&apos;m Maya Venkatraman, a Research Software Engineer at the AlQuraishi Laboratory at Columbia University.
+              I&apos;m Maya Venkatraman, a Research Software Engineer at the <a href="https://aqlab.io" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-slate-100 underline decoration-2 underline-offset-4 transition-colors">AlQuraishi Laboratory</a> at Columbia University.
             </p>
             
             <p>

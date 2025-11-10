@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Poppins, JetBrains_Mono } from "next/font/google";
+import { Nunito, JetBrains_Mono } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 
-const poppins = Poppins({
-  variable: "--font-poppins",
+const nunito = Nunito({
+  variable: "--font-nunito",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["300", "400", "500", "600", "700", "800"],
 });
 
 const jetbrainsMono = JetBrains_Mono({
@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} ${jetbrainsMono.variable} font-poppins antialiased`}
+        className={`${nunito.variable} ${jetbrainsMono.variable} font-nunito antialiased`}
       >
         {/* Navigation at the very top */}
         <nav className="w-full backdrop-blur-sm border-b border-green-800 z-50" style={{ backgroundColor: '#0f1511' }}>
