@@ -626,7 +626,7 @@ export default function Home() {
                   <span className="text-slate-400 text-sm font-medium">2021</span>
                 </div>
                 <p className="text-slate-200 mb-3">
-                  Received the Russell C. Mills Award from Columbia University&apos;s Computer Science Department, recognizing majors who have demonstrated exceptional achievement in the field.
+                  Departmental award from Columbia University&apos;s Computer Science Department, recognizing majors who have demonstrated exceptional achievement in the field.
                 </p>
                 <p className="text-slate-300 text-sm">
                   Featured in <a 
@@ -655,7 +655,7 @@ export default function Home() {
                   <span className="text-slate-400 text-sm font-medium">2017</span>
                 </div>
                 <p className="text-slate-200 mb-3">
-                  Selected as one of six Newton students to win the National Merit $2,500 Scholarship, chosen from over 15,000 finalists nationwide in the 2017 National Merit Scholarship Program.
+                  Selected as one of six Newton students to win the National Merit Scholarship, chosen from over 15,000 finalists nationwide in the 2017 National Merit Scholarship Program.
                 </p>
                 <p className="text-slate-300 text-sm">
                   Featured in <a
@@ -684,7 +684,7 @@ export default function Home() {
                   <span className="text-slate-400 text-sm font-medium">2017</span>
                 </div>
                 <p className="text-slate-200 mb-3">
-                  Selected as a semifinalist for the U.S. Presidential Scholars Program, one of the nation's highest honors for high school students, recognizing superior academic achievement and potential for leadership.
+                  Selected as a semifinalist for the U.S. Presidential Scholars Program, one of the nation's highest honors for high school students, recognizing superior academic achievement and leadership potential.
                 </p>
                 <p className="text-slate-300 text-sm">
                   Listed in <a
