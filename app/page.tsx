@@ -123,7 +123,7 @@ export default function Home() {
               <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-600">
                 <h3 className="text-2xl font-bold text-slate-100 mb-8 text-slate-100 mb-3">Master of Arts in Statistics</h3>
                 <div className="text-lg text-slate-200 mb-2">Columbia University (2025 - present)</div>
-                <div className="text-slate-300 mb-4">Supported by MA2PhD meritscholarship</div>
+                <div className="text-slate-300 mb-4">Supported by the Departmental MA2PhD 33k Merit Scholarship</div>
                 <div className="mt-4">
                   <h4 className="text-lg font-semibold text-slate-100 mb-3">Relevant Coursework:</h4>
                   <ul className="grid grid-cols-1 gap-2 text-slate-200">
@@ -655,7 +655,7 @@ export default function Home() {
                   <span className="text-slate-400 text-sm font-medium">2017</span>
                 </div>
                 <p className="text-slate-200 mb-3">
-                  Selected as one of six Newton students to win the National Merit Scholarship, chosen from over 15,000 finalists nationwide in the 2017 National Merit Scholarship Program.
+                  Recognized as a National Merit Finalist for receiving a perfect score on the PSAT and selected as one of six Newton students to win the scholarship, chosen from over 15,000 finalists nationwide.
                 </p>
                 <p className="text-slate-300 text-sm">
                   Featured in <a
@@ -684,7 +684,7 @@ export default function Home() {
                   <span className="text-slate-400 text-sm font-medium">2017</span>
                 </div>
                 <p className="text-slate-200 mb-3">
-                  Selected as a semifinalist for the U.S. Presidential Scholars Program, one of the nation's highest honors for high school students, recognizing superior academic achievement and leadership potential.
+                  Selected as one of four female students in Massachusetts as a semifinalist for the U.S. Presidential Scholars Program. This award is one of the nation's highest honors for high school students, recognizing superior academic achievement and leadership potential.
                 </p>
                 <p className="text-slate-300 text-sm">
                   Listed in <a
@@ -835,7 +835,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-400 mr-3 mt-2">🏫</span>
-                    <span>Columbia GSAS MA2PhD Merit Scholarship (2025)</span>
+                    <span>Columbia GSAS MA2PhD 33k Merit Scholarship (2025)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-400 mr-3 mt-2">💰</span>
